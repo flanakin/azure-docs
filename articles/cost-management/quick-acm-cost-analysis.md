@@ -41,9 +41,9 @@ Cost analysis is available to all [Enterprise Agreement (EA)](https://azure.micr
 
 ## Review costs in cost analysis
 
-To review your costs with cost analysis, in the Azure portal, navigate to **Cost Management + Billing** &gt; **Cost Management** &gt; **Change scope**, choose a scope, and then click **Select**.
+To review your costs with cost analysis, in the Azure portal, navigate to **Cost Management** &gt; **Change scope**, choose a scope, and then click **Select**.
 
-The scope that you select is used throughout Cost Management to provide data consolidation and to control access to cost information. When you use scopes, you don't multi-select them. Instead, you select a larger scope that others roll-up to and then you filter-down to what you want. This is important to understand because some people should not have access to a parent scope that child scopes roll up to.
+The scope that you select is used throughout Cost Management to provide data consolidation and to control access to cost information. Note you can select one scope at a time to ensure ultimate clarity when viewing costs. Whenever Cost Management shows costs, the total is for that specific scope, with any filters clearly displayed. Viewing costs across subscriptions can be accomplished by organizing subscriptions into management groups and granting access to cost using the **Cost Management Reader** and **Cost Management Contributor** roles.
 
 Click **Open Cost analysis**.
 
@@ -78,7 +78,7 @@ There's also the **daily** view showing costs for each day. The daily view doesn
 
 ![Daily view](./media/quick-acm-cost-analysis/daily-view.png)
 
-You can **Group by** to select a group category to change data displayed in the top total area graph. Grouping lets you quickly see how your spending is categorized by common resource and usage properties, like resource group or resource tags. To group by tags, select the tag key you want to group by and you'll see costs broken down by each value for that tag, with an extra segment for resources which don't have that tag applied. Note Cost Management only supports resource tags from the date the tags are applied directly to the resource. Resource group tags are not supported today. Here's a view of Azure service costs for a view of the last month.
+You can **group by** to select a group category to change data displayed in the top total area graph. Grouping lets you quickly see how your spending is categorized by common resource and usage properties, like resource group or resource tags. To group by tags, select the tag key you want to group by and you'll see costs broken down by each value for that tag, with an extra segment for resources which don't have that tag applied. Note Cost Management only supports resource tags from the date the tags are applied directly to the resource. Resource group tags are not supported today. Here's a view of Azure service costs for a view of the last month.
 
 ![Grouped daily accumulated view](./media/quick-acm-cost-analysis/grouped-daily-accum-view.png)
 
