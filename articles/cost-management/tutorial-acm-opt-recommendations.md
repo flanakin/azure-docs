@@ -36,7 +36,7 @@ Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.c
 
 ## View cost optimization recommendations
 
-In the Azure portal, click **Cost Management + Billing** in the list of services. Then in the list under **Cost Management**, select **Advisor Recommendations**. Advisor Cost recommendations are shown.
+In the Azure portal, click **Cost Management** in the list of services. Then select **Advisor recommendations**. Advisor cost recommendations are shown.
 
 ![Advisor recommendations](./media/tutorial-acm-opt-recommendations/advisor-recommendations.png)
 
