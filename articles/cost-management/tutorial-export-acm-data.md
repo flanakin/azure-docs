@@ -41,7 +41,7 @@ Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.c
 
 ## Create a daily export
 
-Cost Management + Billing &gt; Cost Management &gt; select a subscription or resource group in a subscription &gt; Export &gt; **Add**.
+**Cost Management** &gt; **Change scope** &gt; select a subscription or resource group in a subscription &gt; **Export** &gt; **Add**.
 
 Type a name for the export and select the "Daily export of month-to-date costs" option. Click **Next**.
 
